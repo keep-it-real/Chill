@@ -1,0 +1,197 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,600,700&display=swap&subset=latin-ext);
+}
+
+html, body
+{
+	width: 100%;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	color: #474747;
+	background-color: #f2f2f2;
+}
+
+.navbar
+{
+	background-color: white;
+	font-size: 18px;
+	height: 100px;
+}
+
+.nav-item
+{
+	padding: 0 15px 0 15px;
+}
+
+.navbar .navbar-nav li a
+{
+	color: #6c757d;
+	cursor: pointer;
+}
+
+.navbar .navbar-nav li a:hover
+{
+	color: #00a8ff;
+}
+
+#home
+{
+	background: url(img/background.jpg) no-repeat center center fixed;
+	display: table;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+.quote
+{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Courgette', cursive;
+}
+
+h1
+{
+	font-size: 3.25rem;
+	color: #474747;
+}
+
+h3
+{
+	font-size: 2.25rem;
+	color: #474747;
+}
+
+.btn
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.col-xl-6
+{
+	text-align: center;
+}
+
+#about, #pressmedia
+{
+	padding: 110px 0 110px 0;
+}
+
+#activities
+{
+	padding: 110px;
+}
+
+h4, h2
+{
+	color: #00a8ff;
+}
+
+#fixed
+{
+	background: url(img/seagull.jpg) no-repeat center center fixed;
+	display: table;
+	position: relative;
+	width: 100%;
+	height: 90%;
+	background-size: cover;
+}
+
+footer
+{
+	width: 100%;
+	background-color: white;
+}
+
+h5
+{
+	color: #00a8ff;
+}
+
+.col-xl-4
+{
+	padding: 20px;
+}
+
+.col-xl-4 > p 
+{
+	height: 25px;
+}
+
+.col-xl-4 > a 
+{
+	color: #474747;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.col-xl-4 > a:hover 
+{
+	color: #00a8ff;
+}
+
+@media (min-width: 1020px) and (max-width: 1380px)
+{
+	h1
+	{
+		font-size: 2.75rem;
+	}
+
+	h3
+	{
+		font-size: 1.75rem;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1020px)
+{
+	h1
+	{
+		font-size: 2.25rem;
+	}
+
+	h3
+	{
+		font-size: 1.25rem;
+	}
+}
+
+@media (min-width: 580px) and (max-width: 769px)
+{
+	h1
+	{
+		font-size: 2rem;
+	}
+
+	h3
+	{
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 580px)
+{
+	h1
+	{
+		font-size: 1.75rem;
+	}
+
+	h3
+	{
+		font-size: 0.75rem;
+	}
+}
+
+
+
